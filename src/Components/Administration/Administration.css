@@ -1,0 +1,60 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  
+  .col-lg-4 {
+    flex: 0 0 30%; /* Agar setiap kolom menempati sekitar 30% ruang */
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .file-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .file-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .file-item p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .file-item p a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .button-container {
+    display: flex;            /* Use flexbox */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;           /* Full height of the viewport */
+    position: relative;       /* Allows absolute positioning of other elements if needed */
+}
+
+/* You can keep your existing button styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
